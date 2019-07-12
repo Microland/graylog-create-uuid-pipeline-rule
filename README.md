@@ -1,9 +1,5 @@
 # CreateUUIDFunction Plugin for Graylog
 
-[![Build Status](https://travis-ci.org/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git.svg?branch=master)](https://travis-ci.org/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git)
-
-__Use this paragraph to enter a description of your plugin.__
-
 **Required Graylog version:** 2.0 and later
 
 Installation
