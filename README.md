@@ -9,7 +9,7 @@ __Use this paragraph to enter a description of your plugin.__
 Installation
 ------------
 
-[Download the plugin](https://github.com/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git/releases)
+[Download the plugin](https://github.com/Microland/graylog-create-uuid-pipeline-rule.git/releases)
 and place the `.jar` file in your Graylog plugin directory. The plugin directory
 is the `plugins/` folder relative from your `graylog-server` directory by default
 and can be configured in your `graylog.conf` file.
