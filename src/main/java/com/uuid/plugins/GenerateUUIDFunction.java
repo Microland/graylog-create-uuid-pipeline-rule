@@ -17,7 +17,7 @@ import java.util.UUID;
  * interfaces. (i.e. AlarmCallback, MessageInput, MessageOutput)
  */
 public class GenerateUUIDFunction implements Function<UUID> {
-    public static final String NAME = "generate_uuid";
+    public static final String NAME = "create_uuid";
     private static final String PARAM = "string";
 //    private Logger LOG = LoggerFactory.getLogger(this.getClass());
 
