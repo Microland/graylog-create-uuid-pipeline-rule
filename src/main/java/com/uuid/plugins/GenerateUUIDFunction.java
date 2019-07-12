@@ -33,11 +33,7 @@ public class GenerateUUIDFunction implements Function<UUID> {
 
     @Override
     public UUID evaluate(FunctionArgs functionArgs, EvaluationContext evaluationContext) {
-//        String target = valueParam.required(functionArgs, evaluationContext);
 
-//        if (target == null) {
-//            return null;
-//        }
         UUID uuid1 = Generators.timeBasedGenerator().generate();
         return uuid1;
     }
