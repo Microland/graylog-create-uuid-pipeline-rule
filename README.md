@@ -12,21 +12,10 @@ and can be configured in your `graylog.conf` file.
 
 Restart `graylog-server` and you are done.
 
-Development
------------
-
-You can improve your development experience for the web interface part of your plugin
-dramatically by making use of hot reloading. To do this, do the following:
-
-* `git clone https://github.com/Graylog2/graylog2-server.git`
-* `cd graylog2-server/graylog2-web-interface`
-* `ln -s $YOURPLUGIN plugin/`
-* `npm install && npm start`
-
 Usage
 -----
 
-__Use this paragraph to document the usage of your plugin__
+Generates a uuid for the indexed data
 
 
 Getting started
@@ -39,19 +28,6 @@ This project is using Maven 3 and requires Java 8 or higher.
 * Optional: Run `mvn jdeb:jdeb` and `mvn rpm:rpm` to create a DEB and RPM package respectively.
 * Copy generated JAR file in target directory to your Graylog plugin directory.
 * Restart the Graylog.
-
-Plugin Release
---------------
-
-We are using the maven release plugin:
-
-```
-$ mvn release:prepare
-[...]
-$ mvn release:perform
-```
-
-This sets the version numbers, creates a tag and pushes to GitHub. Travis CI will build the release artifacts and upload to GitHub automatically.
 
 Example
 --------
