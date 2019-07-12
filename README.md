@@ -1,4 +1,4 @@
-# GenerateUUIDFunction Plugin for Graylog
+# CreateUUIDFunction Plugin for Graylog
 
 [![Build Status](https://travis-ci.org/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git.svg?branch=master)](https://travis-ci.org/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git)
 
@@ -56,3 +56,16 @@ $ mvn release:perform
 ```
 
 This sets the version numbers, creates a tag and pushes to GitHub. Travis CI will build the release artifacts and upload to GitHub automatically.
+
+Example
+--------
+
+```
+rule "create_uuid"
+when
+    has_field("somefield")
+then
+    let m = create_uuid("");
+    set_field("uuid", m);
+end
+```
