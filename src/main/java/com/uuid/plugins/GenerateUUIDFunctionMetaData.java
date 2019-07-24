@@ -31,7 +31,7 @@ public class GenerateUUIDFunctionMetaData implements PluginMetaData {
 
     @Override
     public URI getURL() {
-        return URI.create("https://github.com/https://github.com/Microland/graylog-create-uuid-pipeline-rule.git");
+        return URI.create("https://github.com/Microland/graylog-create-uuid-pipeline-rule.git");
     }
 
     @Override
