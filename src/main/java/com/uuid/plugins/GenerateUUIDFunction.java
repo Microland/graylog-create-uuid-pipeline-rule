@@ -23,7 +23,7 @@ public class GenerateUUIDFunction implements Function<UUID> {
 
     private final ParameterDescriptor<String, String> valueParam = ParameterDescriptor
             .string(PARAM)
-            .description("The string to calculate the length of. For example, passing 'foo' will return 3.")
+            .description("To generate UUID for an object")
             .build();
 
     @Override
